@@ -1,0 +1,3 @@
+#Назовите команду, которая перезагружает службу SSH.
+
+systemctl restart ssh.service

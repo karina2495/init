@@ -1,0 +1,5 @@
+#Определить IP- адрес DNS, который отвечает на URL
+
+nslookup slash16.org | grep Server | awk '{print $2}'
+
+#nslookup предоставляет интерфейс командной строки для обращения к системе DNS

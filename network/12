@@ -1,0 +1,3 @@
+#Найдите IP-адрес, назначенный вам сервером DHCP
+
+ipconfig getpacket en0 | grep server_identifier | awk '{print $3}'

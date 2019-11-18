@@ -1,0 +1,3 @@
+#Запустите команду «tail -f / var / log / syslog» в фоновом режиме
+
+tail -f /var/log/syslog &

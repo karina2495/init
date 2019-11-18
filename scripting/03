@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "The current directory is:"
+pwd
+echo "Home for the current user is: $HOME"

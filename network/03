@@ -1,0 +1,5 @@
+#Определить MAC адресс карты WI-FI
+
+ifconfig en1 | grep ether | awk '{print $2}'
+
+#en1 - карта WI-FI

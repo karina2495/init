@@ -1,0 +1,3 @@
+# Определите PID службы SSHD
+
+ps aux | grep 'root' | grep '/sshd'
